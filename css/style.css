@@ -1,0 +1,37 @@
+.slider h3,
+.slider h5 {
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.galeri img {
+  margin-bottom: 10px;
+}
+
+section,
+footer {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  nav .brand-logo {
+    left: 0 !important;
+  }
+}
+
+li a {
+  color: #000;
+}
+
+.kontak li a:hover {
+  color: rgb(0, 110, 255);
+  transition: 0.5s;
+}
+
+.footer,
+.footer a {
+  color: #fff;
+}
+
+.footer .row a:hover {
+  color: rgb(200, 200, 200);
+}
