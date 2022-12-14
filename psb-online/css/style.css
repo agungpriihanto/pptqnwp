@@ -1,0 +1,68 @@
+/* Background */
+body {
+  background-color: #81c784;
+}
+
+.formulir h3 {
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.6);
+}
+
+form .border {
+  border-top: 10px solid #388e3c;
+}
+
+form {
+  margin-bottom: 50px !important;
+}
+
+form h6,
+form p {
+  font-size: 13px;
+}
+
+/* Footer */
+section,
+footer {
+  padding: 5px 0;
+}
+
+.d-none {
+  display: none;
+}
+
+.small {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw !important;
+    box-sizing: border-box !important;
+  }
+
+  .formulir h3 {
+    font-size: 23px;
+  }
+
+  .formulir p {
+    font-size: 11px;
+  }
+
+  body form {
+    font-size: 12px !important;
+  }
+}
+
+li a {
+  color: #000;
+}
+
+.footer,
+.footer a {
+  color: #fff;
+}
+
+.footer .row a:hover {
+  color: rgb(200, 200, 200);
+}

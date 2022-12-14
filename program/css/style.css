@@ -1,0 +1,81 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Table */
+table td,
+table th {
+  border: 1px solid rgb(165, 165, 165);
+  padding: 10px 20px 10px 20px;
+}
+
+.tab .active {
+  background-color: #4caf50 !important;
+}
+
+.tabs .indicator {
+  background-color: #e8f5e9 !important;
+}
+
+.program table {
+  font-size: 13px;
+}
+
+.red-text li {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.indent {
+  text-indent: 8px;
+}
+
+/* Footer */
+section,
+footer {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw !important;
+    box-sizing: border-box !important;
+    font-size: 12px;
+  }
+
+  .program table {
+    font-size: 11px;
+  }
+
+  .program .tabs a {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  table td,
+  table th {
+    padding: 5px 10px 5px 10px;
+  }
+
+  .program h3 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  nav .brand-logo {
+    left: 0 !important;
+  }
+}
+
+li a {
+  color: #000;
+}
+
+.footer,
+.footer a {
+  color: #fff;
+}
+
+.footer .row a:hover {
+  color: rgb(200, 200, 200);
+}

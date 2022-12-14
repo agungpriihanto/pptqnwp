@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <script src="https://kit.fontawesome.com/9056c3bbc2.js" crossorigin="anonymous"></script>
+    <title>Formulir Pendaftaran - PPTQ Nuurul Waahid Purworejo</title>
+  </head>
+
+  <body>
+    <!-- Formulir Pendaftaran -->
+    <section id="formulir" class="formulir scrollspy">
+      <div class="container">
+        <form name="submit-to-google-sheet">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white border">
+                <div class="card-content white-text center">
+                  <img src="img/icon.png" width="200px" />
+                  <h5 class="light grey-text text-darken-3">Formulir Pendaftaran</h5>
+                  <hr />
+                  <h6 class="light grey-text text-darken-3">PPTQ Nuurul Waahid Purworejo 2023/2024</h6>
+                  <p class="light grey-text text-darken-3">RT 002 RW 003 Desa Cokroyasan, Ngombol, Purworejo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Nama Lengkap</h5>
+                  <div class="input-field">
+                    <input id="nama_lengkap" type="text" class="validate" name="nama" placeholder="Masukan Nama Anda" required />
+                    <label for="nama_lengkap"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Tempat Lahir</h5>
+                  <div class="input-field">
+                    <input id="tempat_lahir" type="text" class="validate" name="tempat_lahir" placeholder="Masukan Tempat Lahir" required />
+                    <label for="tempat_lahir"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Tanggal Lahir</h5>
+                  <div class="input-field">
+                    <input id="tanggal_lahir" type="date" class="validate" name="tanggal_lahir" placeholder="Masukan Tanggal Lahir" required />
+                    <label for="tanggal_lahir"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Jenis Kelamin</h5>
+                  <label>
+                    <input name="jenis_kelamin" type="radio" class="with-gap" value="Laki - laki" required />
+                    <span>Laki - laki</span> </label
+                  ><br />
+                  <label>
+                    <input name="jenis_kelamin" type="radio" class="with-gap" value="Perempuan" required />
+                    <span>Perempuan</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Nomor HP</h5>
+                  <div class="input-field">
+                    <input id="no_hp" type="number" class="validate" name="no_hp" placeholder="Masukan Nomor HP" required />
+                    <label for="no_hp"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Email</h5>
+                  <div class="input-field">
+                    <input id="email" type="email" class="validate" name="email" placeholder="Masukan Email" required />
+                    <label for="email"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Alamat</h5>
+                  <div class="input-field">
+                    <input id="alamat" type="text" class="validate" name="alamat" placeholder="Masukan Alamat" required />
+                    <label for="alamat"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Asal Sekolah</h5>
+                  <div class="input-field">
+                    <input id="asal_sekolah" type="text" class="validate" name="asal_sekolah" placeholder="Masukan Asal Sekolah" required />
+                    <label for="asal_sekolah"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Nama Ayah</h5>
+                  <div class="input-field">
+                    <input id="nama_ayah" type="text" class="validate" name="nama_ayah" placeholder="Masukan Nama Ayah" required />
+                    <label for="nama_ayah"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Nama Ibu</h5>
+                  <div class="input-field">
+                    <input id="nama_ibu" type="text" class="validate" name="nama_ibu" placeholder="Masukan Nama Ibu" required />
+                    <label for="nama_ibu"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card white">
+                <div class="card-content white-text">
+                  <h5 class="light grey-text text-darken-3">Pekejaan Ayah</h5>
+                  <div class="input-field">
+                    <input id="pekerjaan_ayah" type="text" class="validate" name="pekerjaan_ayah" placeholder="Masukan Pekerjaan Ayah" required />
+                    <label for="pekerjaan_ayah"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <button class="btn waves-effect waves-light btn-kirim green darken-1" type="submit" name="action">
+                Kirim
+                <i class="material-icons right">send</i>
+              </button>
+
+              <button class="btn waves-effect waves-light btn-small green darken-1 d-none btn-load" type="submit" name="action">
+                Loading
+                <div class="preloader-wrapper small active">
+                  <div class="spinner-layer">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                      <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card green lighten-4 my-alert d-none">
+                <div class="card-content white-text">
+                  <p class="light black-text" style="margin-bottom: 20px"><strong>Terimakasih!</strong> data anda telah kami terima. Mohon upload dokumen pendaftaran!</p>
+                  <p><a href="" target="_blank" class="waves-effect waves-light btn">upload</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="layer"></div>
+    <footer class="grey center darken-3">
+      <p class="white-text">&copy; Copyright 2022 | <a class="white-text" href="../">PPTQ Nuurul Waahid Purworejo</a></p>
+      <p class="grey-text">Designed by Ag. - v1.0.0</p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      // Scrollspy
+      const scroll = document.querySelectorAll('.scrollspy');
+      M.ScrollSpy.init(scroll, {
+        scrollOffset: 50,
+      });
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzFJRBFlkNU8s_g6JFcrFc_RfgW37FM_CI4C6Uzfnm9oXdYkmD0kPkMvs1MATc6-a6Xlg/exec';
+      const form = document.forms['submit-to-google-sheet'];
+
+      // Form Action
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoad = document.querySelector('.btn-load');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        btnLoad.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            console.log('Success!', response);
+            btnLoad.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            myAlert.classList.toggle('d-none');
+            form.reset();
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+  </body>
+</html>

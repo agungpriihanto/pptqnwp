@@ -1,0 +1,111 @@
+/* Slider */
+.slider h3,
+.slider h5 {
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.slider .slides {
+  height: 90vh !important;
+}
+
+/* Profil */
+.profil {
+  margin-top: 150px;
+}
+
+/* Program */
+.program {
+  height: 80vh;
+}
+
+.program p {
+  font-size: 20px;
+}
+
+/* Galeri */
+.galeri img {
+  margin-bottom: 10px;
+}
+
+/* Kontak */
+.kontak li a:hover {
+  color: rgb(0, 110, 255);
+  transition: 0.5s;
+}
+
+.small {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.card-content {
+  border: 1px solid #4caf50;
+  padding: 10px !important;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Footer */
+section,
+footer {
+  padding: 5px 0;
+}
+
+.goTop {
+  position: fixed;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #48dbfb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw !important;
+    box-sizing: border-box !important;
+    font-size: 12px;
+  }
+
+  nav .brand-logo {
+    left: 0 !important;
+  }
+
+  .profil h4 {
+    font-size: 23px;
+  }
+
+  .program {
+    height: 100% !important;
+  }
+
+  .kontak li {
+    font-size: 12px;
+  }
+
+  .goTop {
+    display: inline-block;
+  }
+}
+
+li a {
+  color: #000;
+}
+
+.footer,
+.footer a {
+  color: #fff;
+}
+
+.footer .row a:hover {
+  color: rgb(200, 200, 200);
+}
